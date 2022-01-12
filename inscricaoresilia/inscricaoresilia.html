@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <TITLE>Inscrição turma Web Dev - Resília</TITLE>
+    <link rel="stylesheet" href="inscricaoresilia.css">
+</head>
+
+<body>
+    <h1> Inscrição para a Turma Web Dev Resília</h1>
+
+    <p>Venha <em>transformar</em> sua história se tornando uma Web Dev! </p>
+
+    <h2>Se inscreva já!</h2>
+</body>
+
+<form method="get" action="envio_dados.php">
+    <input type="text" name=" Digite seu nome" placeholder="Digite seu nome aqui">
+    <input type="text" name="Digite seu sobrenome" placeholder="Digite seu sobrenome aqui">
+    <input type="text" name="Conte um pouco sobre você" placeholder="Queremos te conhecer! Fale um pouco sobre você.">
+    <input type="email" name="email" placeholder="Digite seu e-mail">
+    <input type="button" name="enviar" value="Enviar" onclick="msg()">
+
+    <script> 
+    function msg() {
+        alert ("Contato enviado! Aguarde nosso retorno :)");
+    }
+    </script>
+</form>
+
+</html>
